@@ -11,7 +11,7 @@ class PostsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Posts'),
+        title: const Center(child:  Text('Posts', style: TextStyle(color: Colors.black),)),
       ),
       body: Container(
         child: GetBuilder<PostsController>(
